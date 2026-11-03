@@ -7,6 +7,7 @@ import Vitrine from './components/vitrine/vitrine'
 import Parceiros from './components/parceiros/parceiros'
 import Vitrine2 from './components/vitrine/vitrine2'
 import Marcas from './components/marcas/marcas'
+import Footer from './components/footer/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
       <Parceiros />
       <Marcas />
       <Vitrine2 />
+      <Footer />
     </main>
   )
 }
