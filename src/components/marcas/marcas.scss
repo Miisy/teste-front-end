@@ -1,0 +1,49 @@
+.marcas-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+  font-family: var(--sans);
+  text-align: center;
+
+  .marcas-titulo {
+    color: #3F10C8; 
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+
+  .marcas-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .marca-item {
+      width: 211px;
+      height: 211px;
+      background-color: #FFFFFF;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.13);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.1);
+      }
+
+      .marca-logo {
+        width: 120px; // Ajusta este valor dependendo do tamanho original da tua imagem do logo
+        height: auto;
+      }
+    }
+  }
+}

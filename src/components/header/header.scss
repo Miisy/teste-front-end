@@ -1,0 +1,128 @@
+.header-principal {
+  font-family: var(--sans);
+  width: 100%;
+  background-color: #fff;
+  color: #8C8C8C;
+  font-weight: 600;  
+
+  .header-topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 12px;
+
+    .header-topo-item {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      cursor: pointer;
+    }
+
+    span {
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      gap: 5px;
+
+      strong {
+        color: #3019B2; 
+        font-weight: 600;
+      }
+    }
+  }
+
+  .header-meio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%; 
+    
+    .logo {
+      height: 40px; 
+    }
+
+    .barra-busca {
+      display: flex;
+      align-items: center;
+      background-color: #F6F5F2;
+      border-radius: 8px;
+      padding: 0 15px;
+      width: 50%;
+      height: 48px;
+
+      input {
+        flex: 1;
+        border: none;
+        background: transparent;
+        outline: none;
+        font-size: 14px;
+      }
+
+      button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    
+        &:hover svg {
+          color: #3019B2;
+        }
+      }
+    }
+
+    .icones-usuario {
+      ul {
+        display: flex;
+        gap: 30px;
+        align-items: center; 
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      li {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .header-categorias {
+    border-top: 1px solid #f0f0f0;
+    box-shadow: 0 4px 6px -4px rgba(0,0,0,0.05);
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; /* Corrigido */
+      list-style: none;
+      margin: 0;
+      padding: 15px 5%;
+      
+      li {
+        font-size: 12px;
+        font-weight: 600;
+        color: #999;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: color 0.3s ease;
+
+        &:hover, &.destaque {
+          color: #3F10C8;
+        }
+
+        &.assinatura {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+      }
+    }
+  }
+}

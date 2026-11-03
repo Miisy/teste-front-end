@@ -1,0 +1,30 @@
+.vitrine-header-simples {
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+
+    .linha-decorativa {
+      flex: 1;
+      height: 1px;
+      background-color: #EBEBEB;
+      max-width: 300px;
+    }
+
+    .vitrine-titulo {
+      color: #3F10C8;
+      font-size: 30px;
+      font-weight: 700;
+    
+    }
+  }
+
+  .link-ver-todos-centro {
+    display: block;
+    text-align: center;
+    color: #3F3F40;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 15px;
+  }
