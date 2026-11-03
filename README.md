@@ -14,6 +14,10 @@ O projeto foi construído utilizando as ferramentas mais modernas do ecossistema
 *   **HTML5 Semântico:** Tags como `<section>`, `<article>`, `<header>`, e `<nav>` foram priorizadas para melhorar a acessibilidade e estrutura do código.
 
 ---
+## Testes unitários
+
+Foi realizado teste unitário de interação com ícones que supostamente deveria ter uma reação com o passar do mouse, como as categorias (tanto no menu do header, quanto nas categorias abaixo do banner), assim como na seleção na vitrine, área de parceiros, marcas e news letter. 
+Falando em newsletter, foi feito teste de não haver informação, ou haver informação fora do estilo (como o e-mail por exemplo.)
 
 ## ⚙️ Estrutura e Funcionalidades Principais
 

@@ -67,9 +67,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
-    
-        &:hover svg {
+        color: #8C8C8C;
+        :hover {
           color: #3019B2;
         }
       }
@@ -89,6 +88,9 @@
         display: flex;
         align-items: center;
         cursor: pointer;
+        :hover{
+          stroke: #3F10C8;
+        }
       }
     }
   }
